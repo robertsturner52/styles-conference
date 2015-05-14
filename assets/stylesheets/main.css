@@ -22,6 +22,14 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     background: #fff;
     color: #648880;
 }
+.btn-default {
+    border: 0;
+    background: #648880;
+    padding: 11px 30px;font-size: 14px;
+}
+.btn-default:hover {
+    background: #77a198;
+}
 
 /* Clearfix */
 
@@ -89,6 +97,12 @@ body {
 .hero p {
     font-size: 24px;
     font-weight: 100;
+}
+.teaser img {
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 22px;
+    max-width: 100%;
 }
 .teaser a:hover h3 {
     color: #a9b2b9;
@@ -173,6 +187,42 @@ p a {
     text-transform: uppercase;
 }
 
+/* Register*/
+
+form {
+    margin-bottom: 22px;
+}
+input, select, textarea {
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.register-group label {
+    color: #648880;
+    cursor: pointer;
+    font-weight: 400;
+}
+.register-group input, .register-group select, .register-group textarea {
+    border: 1px solid #c6c9cc;
+    border-radius: 5px;
+    color: #888;
+    display: block;
+    margin: 5px 0 27px 0;
+    padding: 5px 8px;
+}
+.register-group input, .register-group textarea {
+    width: 100%;
+}
+.register-group select {
+    height: 34px;
+    width: 60px;
+}
+.register-group textarea {
+    height: 78px;
+}
+.why-attend {
+    list-style: square;
+    margin: 0 0 22px 30px;
+}
+
 /* Rows */
 
 .row, .row-alt {
@@ -190,6 +240,65 @@ p a {
     padding: 44px 0 22px 0;
 }
 
+/* Schedule */
+
+table {
+    margin-bottom: 44px;
+    width: 100%;
+}
+table:last-child {
+    margin-bottom: 0;
+}
+th, td {
+    padding-bottom: 22px;
+    vertical-align: top;
+}
+th {
+    padding-right: 45px;
+    text-align: right;
+    width: 20%;
+}
+td {
+    width: 40%;
+}
+thead {
+    line-height: 44px;
+}
+thead th {
+    color: #648880;
+    font-size: 24px;
+}
+tbody th {
+    color: #a9b2b9;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 22px;
+    text-transform: uppercase;
+}
+tbody td {
+    border-top: 1px solid #dfe2e5;
+    padding-top: 21px;
+}
+tbody td:first-of-type {
+    padding-right: 15px;
+}
+tbody td:last-of-type {
+    padding-left: 15px;
+}
+tbody td:only-of-type {
+    padding-left: 0;
+    padding-right: 0;
+}
+table a {
+    color: #888;
+}
+table h4 {
+    margin-bottom: 0;
+}
+.schedule-offset {
+    color: #a9b2b9;
+}
+
 /* Speakers */
 
 .speaker {
@@ -199,8 +308,14 @@ p a {
     border: 1px solid #dfe2ef;
     border-radius: 5px;
     margin-top: 88px;
-    padding: 22px 0;
+    padding-bottom: 22px;
     text-align: center;
+}
+.speaker-info img {
+    border-radius: 50%;
+    height: 130px;
+    vertical-align: top;
+    margin: -66px 0 22px 0;
 }
 
 /* Typography */
@@ -236,4 +351,16 @@ strong {
 }
 cite, em {
     font-style: italic;
+}
+
+/*venue*/
+
+.venue-theatre {
+    margin-bottom: 66px;
+}
+.venue-hotel {
+    margin-bottom: 22px;
+}
+.venue-map {
+    height: 264px;
 }
